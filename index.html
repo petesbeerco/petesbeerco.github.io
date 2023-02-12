@@ -21,6 +21,12 @@
             <li>wiki doc created by Chris for Wonga release</li>
         </ul>
 
+        <h5>By email:</h5>
+        <ul>
+            <li>Request the creation of user accounts named per service</li>
+            <li>They're all Dev users, even for QA and UAT</li>
+        </ul>
+
         <h5>In SQL Tool:</h5>
         <span class="text-danger">QA DB, pls assist w login</span>
         <ul>
@@ -40,11 +46,12 @@
             <li>Releases → 📁 → Edit</li>
             <li>For each Service</li>
                 <ul>
-                    <li>Tasks edit: same as ref</li>
+                    <li>Tasks edit: derive Zip file path & ensure fields and user name variables match reference project</li>
                     <li>Variables: Link variable groups to Release or Stage (then check targetting in summary)</li>
                     <li>Deploy step: Select Development Group 11 & add Tag if exist</li>
                     <li>Create Releases while monitoring log & destination Azure Windows server</li>
                     <li>Add user to Administrator Group in Computer Management if a service doesn't restart</li>
+                    <li>Clean up failed Releases so only the latest successfull 'green' release remains</li>
                 </ul>
             </li>
         </ul>
@@ -64,7 +71,7 @@
         <br><br><br><br>
         <h5>Questions:</h5>
         <ul>
-            <li>Any Artifacts (at left of Stages) in AFB Dev Release Pipeline?</li>
+            <li>Any Artifacts (see on left of Stages) in AFB Dev Release Pipeline?</li>
             <li>Check if there was an email pointing to Teams Group that I missed</li>
             <li><span class="text-danger">Temp</span> QA,nn<span class="text-danger">,nn</span> SQL Server DB? </li>
         </ul>
