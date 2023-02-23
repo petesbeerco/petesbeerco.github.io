@@ -13,71 +13,9 @@
   <body>
     <div class="container mt-2">
 
-        <h4>Migrate Server 2016 to 2019</h4>
-        <h4>Deploy BE Services</h4>
-
-        <h5>Pre Reading:</h5>
-        <ul>
-            <li>wiki doc created by Chris for Wonga release</li>
-        </ul>
-
-        <h5>By email:</h5>
-        <ul>
-            <li>Request the creation of user accounts named per service</li>
-            <li>They're all Dev users, even for QA and UAT</li>
-        </ul>
-
-        <h5>In SQL Tool:</h5>
-        <span class="text-danger">new temp QA DB, pls assist w login</span>
-        <ul>
-            <li>check that users exist in wbs table</li>
-            <li>create/rename users as needed</li>
-        </ul>
-
-        <h5>In Azure DevOps:</h5>
-        <h6>Repos</h6>
-        <ul>
-            <li>Clone <span class="text-danger">Project / Repo / Pipeline? </span><br><span class="text-success"><i>Undocumented: Benefit by setting up the environment leveraging earlier work</i></span></li>
-        </ul>
-
-        <h6>Pipelines</h6>
-        <ul>
-            <li>Library: Edit Variable Groups</li>
-            <li>Releases → 📁 → Edit</li>
-            <li>For each Service</li>
-                <ul>
-                    <li>Tasks edit: derive Zip file path & ensure fields and user name variables match reference project</li>
-                    <li>Variables: Link variable groups to Release or Stage (then check targetting in summary)</li>
-                    <li>Deploy step: Select Development Group 11 & add Tag if exist</li>
-                    <li>Create Releases while monitoring log & destination Azure Windows server</li>
-                    <li>Add user to Administrator Group in Computer Management if a service doesn't restart</li>
-                    <li>Clean up failed Releases so only the latest successfull 'green' release remains</li>
-                </ul>
-            </li>
-        </ul>
-
-        <br><br><br>
-        <h4>After Successful Deployment:</h4>
-        <h5>In Destination Azure Server:</h5>
-        <ul>
-            <li>check that E:\Services\... folders were created</li>
-            <li>check that newly deployed services are running</li>
-        </ul>
-        <h5>In SQL Tool:</h5>
-        <ul>
-            <li>check for WBS_Last_Visited datetime updating every 10 seconds</li>
-        </ul>
-        
-        <br><br><br><br>
-        <h5>Questions:</h5>
-        <ul>
-            <li>Any Artifacts (see on left of Stages) in AFB Dev Release Pipeline?</li>
-            <li>Check if there was an email pointing to Teams Group that I missed</li>
-            <li><span class="text-danger">Temp</span> QA,nn<span class="text-danger">,nn</span> SQL Server DB? </li>
-        </ul>
-
-        <br><br><br><br><br><br> 
-        <p>https://petesbeerco.github.io/  petervanzylactive@gmail.com  K_tM_w3</p> 
+        <h4>Just a test page</h4>
+   
+        <p>https://petesbeerco.github.io/  i K_tM_w3</p> 
 
     </div>
 
