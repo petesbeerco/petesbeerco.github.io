@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Momster</title>
+    <link>/posts/</link>
+    <description>Recent content in Posts on Momster</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 03 Mar 2023 00:29:18 +0200</lastBuildDate>
+    
+	<atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>My Second</title>
+      <link>/posts/my-second/</link>
+      <pubDate>Fri, 03 Mar 2023 00:29:18 +0200</pubDate>
+      
+      <guid>/posts/my-second/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>My First</title>
+      <link>/posts/my-first/</link>
+      <pubDate>Sat, 07 Jan 2023 00:15:43 +0200</pubDate>
+      
+      <guid>/posts/my-first/</guid>
+      <description>Introduction This is bold text, and this is emphasized text.
+ Dorothy followed her through many of the beautiful rooms in her castle.
+  First item Second item Third item  Indented item Indented item   Fourth item     Syntax Description     Header Title   List Here&amp;rsquo;s a list!     Visit the Hugo website!</description>
+    </item>
+    
+  </channel>
+</rss>
